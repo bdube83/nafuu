@@ -4,3 +4,9 @@
 
 2018-12-25T01:54:36+00:00 CRITICAL syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php on line 332
 
+2018-12-25T10:29:20+00:00 CRITICAL syntax error, unexpected end of file in /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php on line 575
+
+2018-12-25T10:36:04+00:00 CRITICAL Call to a member function is_on_sale() on a non-object in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/loop/sale-flash.php on line 14
+
+2018-12-25T10:36:36+00:00 CRITICAL Call to a member function is_on_sale() on a non-object in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/loop/sale-flash.php on line 14
+

@@ -11,6 +11,7 @@ jQuery(document).ready(function($) {
             itemSelector: '.blog-roll',
         }).masonry('reloadItems').masonry();
     });    
+    $('.cameracurrent').hide();
     
     // $('.site-cta').css({visibility:'hidden'});
     // $(window).scroll(function(){

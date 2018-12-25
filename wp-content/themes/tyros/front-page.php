@@ -16,7 +16,7 @@ get_header(); ?>
             
             <div class="main-heading-box larger-box animated fadeInUp" id="">
                 <div class="col-sm-10">
-                    Find a cheap item, Post on nafuu, Get a reward
+                    Find cheap items, Post on nafuu, Get a reward
                 </div>
                 <div class="col-sm-2">
                     <a href="<?php echo esc_url( of_get_option( 'tyros_cta_button_link', '#' ) ); ?>" class="btn btn-default">

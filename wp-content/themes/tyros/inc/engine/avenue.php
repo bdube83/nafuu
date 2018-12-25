@@ -299,7 +299,7 @@ function tyros_slider() { ?>
                 <?php if ('' != of_get_option('tyros_slide1_image', get_template_directory_uri() . '/inc/images/slide1_demo.jpg')) { ?>
                     <div data-thumb="<?php echo esc_url( of_get_option('tyros_slide1_image', get_template_directory_uri() . '/inc/images/slide1_demo.jpg') ); ?>" data-src="<?php echo esc_url( of_get_option('tyros_slide1_image', get_template_directory_uri() . '/inc/images/slide1_demo.jpg') ); ?>">
                         <div class="camera_caption primary_caption animated fadeInLeft">
-                            <span>Healthy spending</span>
+                            <span>Healthy spending leads to</span>
                         </div>
                         <div class="camera_caption secondary_caption animated fadeInRight">
                             <span>Healthy gains</span>
@@ -333,56 +333,8 @@ function tyros_slider() { ?>
     <?php
 }
 
+//Deprecated
 function tyros_ctas() { ?>
-    <div id="site-cta" class="row no-slider"><!-- #CTA boxes -->
-        
-
-        
-        <div class="col-md-4 site-cta">
-            <div class="center">
-                <i class="<?php echo esc_attr( of_get_option('tyros_cta1_icon', 'fa fa-desktop') ); ?>"></i>
-            </div>
-                
-            <h3><?php echo esc_attr( of_get_option('tyros_cta1_title', 'Woo Commerce Supported') ); ?></h3>
-            <p>
-                <?php echo esc_attr( of_get_option('tyros_cta1_text', 'Tyros is compatible with Woo Commerce') ); ?>
-            </p>
-            <p class="">
-                <a href="<?php echo esc_url( of_get_option('tyros_cta1_url') ) ?>" class=""><?php echo esc_attr( of_get_option('tyros_cta1_button_text', 'Learn More') );  ?></a>
-            </p>                                
-                
-        </div>
-            <div class="col-md-4 site-cta">
-                <div class="center">
-                    <i class="<?php echo esc_attr( of_get_option('tyros_cta2_icon', 'fa fa-tachometer') ); ?>"></i>
-                </div>
-
-                <h3><?php echo esc_attr( of_get_option('tyros_cta2_title', 'Font Awesome Icons') ); ?></h3>
-                <p>
-                    <?php echo esc_attr( of_get_option('tyros_cta2_text', 'Tyros is loaded with over 600Font Awesome icons') ); ?>
-                </p>
-                <p class="">
-                    <a href="<?php echo esc_url( of_get_option('tyros_cta2_url') ); ?>" class=""><?php echo esc_attr( of_get_option('tyros_cta2_button_text', 'Click Here') );  ?></a>
-                </p>                                
-
-            </div>
-            <div class="col-md-4 site-cta">
-                <div class="center">
-                    <i class="<?php echo esc_attr( of_get_option('tyros_cta3_icon', 'fa fa-rocket') ); ?>"></i>
-                </div>
-
-                <h3><?php echo esc_attr( of_get_option('tyros_cta3_title', 'Responsive') ); ?></h3>
-                <p>
-                    <?php echo esc_attr( of_get_option('tyros_cta3_text', 'Tyros looks great on desktop, tablets and phones mobile phones.') ); ?>
-                </p>
-                <p class="">
-                    <a href="<?php echo esc_url( of_get_option('tyros_cta3_url') ); ?>" class=""><?php echo esc_attr( of_get_option('tyros_cta3_button_text', 'Click Here') );  ?></a>
-                </p>
-
-            </div>
-        
-    </div><!-- #CTA boxes -->
-    <div class="clear"></div>
     <?php
 }
 
