@@ -1444,16 +1444,22 @@ ul.social-icons li a:hover{
 .mb20{ margin-bottom: 20px;}
 .mt20{ margin-bottom: 20px;}
 
-#woocommerce_top_rated_products-3 .owl-carousel  .owl-item{
-	padding-left: 93px;
-    padding-right: 81px;
+@media (min-width: 900px) and (orientation:landscape) {
+
+    #woocommerce_top_rated_products-3 .owl-carousel  .owl-item{
+    	padding-left: 93px;
+        padding-right: 81px;
+    }
+    
+    #woocommerce_top_rated_products-3 .owl-carousel  .owl-wrapper{
+    	width: 100% !important;
+    }
+    
+    #woocommerce_top_rated_products-3 .owl-carousel  .owl-item{
+    	width: 33.333333% !important;
+    }
 }
 
-#woocommerce_top_rated_products-3 .owl-carousel  .owl-wrapper{
-	width: 100% !important;
+#camera_wrap_1{
+    margin-bottom: unset !important
 }
-
-#woocommerce_top_rated_products-3 .owl-carousel  .owl-item{
-	width: 33.333333% !important;
-}
-
