@@ -65,17 +65,17 @@ input[type="submit"]{
 
 }
 a.btn.btn-slider{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(216, 216, 216);
     /* padding: 15px; */
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #333333;
     line-height: 20px;
     display: inline-block;
     padding: 15px;
     line-height: 0px;
-    background: rgba(255,255,255,0.2);
-    box-shadow: 0 0 3px rgb(255, 255, 255);
-    -webkit-box-shadow: 0 0 3px rgb(255, 255, 255);
+    background: rgb(216, 216, 216);
+    box-shadow: 0 0 3px #333;
+    -webkit-box-shadow: 0 0 3px #333333;
     -moz-box-shadow: 0 0 3px rgb(255, 255, 255);
 }
 a.btn.btn-slider:hover{
@@ -297,16 +297,16 @@ a.btn.btn-slider:hover{
     /*background: rgba(0, 0, 0, 0.5);*/
 }
 .sc-slider-wrapper .camera_caption.primary_caption{
-    bottom: 350px !important;
+    bottom: 184px !important;
 }
 .sc-slider-wrapper .camera_caption.secondary_caption{
-    bottom: 300px !important;
+    bottom: 122px !important;
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
     animation-delay: 1s;
 }
 .sc-slider-wrapper .camera_caption.third_caption{
-    bottom: 250px !important;
+    bottom: 70px !important;
     -webkit-animation-delay: 2s;
     -moz-animation-delay: 2s;
     animation-delay: 2s;    
@@ -325,7 +325,7 @@ a.btn.btn-slider:hover{
     -webkit-text-shadow: 1px 1px #000;
     -moz-text-shadow: 1px 1px #000;
     height: 50px;
-    font-size: 45px;    
+    font-size: 31px;    
 }
 .smartcat_slider_caption{
     position: absolute;
@@ -391,7 +391,7 @@ a.btn.btn-slider:hover{
 }
 #main-heading .main-heading-box.larger-box{    
     padding: 30px;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 44px;
 }
 #main-heading .main-heading-box{    

@@ -283,15 +283,11 @@ function tyros_slider() { ?>
 <script>
     jQuery(document).ready(function($){
         jQuery('#camera_wrap_1').camera({
-            height: '550px',
-            loader: 'pie',
-            pagination: false,
-            thumbnails: false,
-            fx: 'scrollLeft',
-            time: 4000,
-            transPeriod: 1000,
-            overlayer: true,
-            playPause: false,
+            height: '290px',
+            autoAdvance: false,
+            mobileAutoAdvance: false,
+            navigation: false,
+            playPause: false
         });            
     });
 
@@ -303,20 +299,20 @@ function tyros_slider() { ?>
                 <?php if ('' != of_get_option('tyros_slide1_image', get_template_directory_uri() . '/inc/images/slide1_demo.jpg')) { ?>
                     <div data-thumb="<?php echo esc_url( of_get_option('tyros_slide1_image', get_template_directory_uri() . '/inc/images/slide1_demo.jpg') ); ?>" data-src="<?php echo esc_url( of_get_option('tyros_slide1_image', get_template_directory_uri() . '/inc/images/slide1_demo.jpg') ); ?>">
                         <div class="camera_caption primary_caption animated fadeInLeft">
-                            <span><?php echo esc_attr( of_get_option('tyros_slide1_text','Tyros: Multi-purpose Responsive Theme') ); ?></span>
+                            <span>Healthy spending</span>
                         </div>
                         <div class="camera_caption secondary_caption animated fadeInRight">
-                            <span><?php echo esc_attr( of_get_option('tyros_slide1_text2','Clean & Modern Design') ); ?></span>
+                            <span>Healthy gains</span>
                         </div>
                         <div class="camera_caption third_caption animated bounceIn">
                             <a href="<?php echo esc_url( of_get_option( 'tyros_slide1_button_url', '#' ) ); ?>" class="btn btn-slider">
-                                <?php echo esc_attr( of_get_option( 'tyros_slide1_button_text', 'Click Here') ); ?>
+                                Browse
                             </a>
                         </div>
                     </div>
                 <?php } ?>            
             
-                <?php if ('' != of_get_option('tyros_slide2_image', get_template_directory_uri() . '/inc/images/slide1_demo.jpg')) { ?>
+                <?php if ('' != '') { ?>
                       <div data-thumb="<?php echo esc_url( of_get_option('tyros_slide2_image', get_template_directory_uri() . '/inc/images/slide2_demo.jpg') ); ?>" data-src="<?php echo esc_url( of_get_option('tyros_slide2_image', get_template_directory_uri() . '/inc/images/slide2_demo.jpg') ); ?>">
                         <div class="camera_caption primary_caption animated fadeInLeft">
                             <span><?php echo esc_attr( of_get_option('tyros_slide2_text','Professional & Unique Design') ); ?></span>
@@ -338,7 +334,7 @@ function tyros_slider() { ?>
 }
 
 function tyros_ctas() { ?>
-    <div id="site-cta" class="row <?php echo of_get_option('tyros_slider_bool', 'yes') == 'yes' ? '' : 'no-slider' ?>"><!-- #CTA boxes -->
+    <div id="site-cta" class="row no-slider"><!-- #CTA boxes -->
         
 
         

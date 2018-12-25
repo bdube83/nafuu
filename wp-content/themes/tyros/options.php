@@ -325,14 +325,14 @@ function optionsframework_options() {
         'name' => __('Slide #1 Caption 1', 'tyros'),
         'desc' => __('First Slide Text', 'tyros'),
         'id' => 'tyros_slide1_text',
-        'std' => 'Tyros: Multi-purpose Responsive Theme',
+        'std' => 'Healthy spending',
         'type' => 'text');
     
     $options[] = array(
         'name' => __('Slide #1 Caption 2', 'tyros'),
         'desc' => __('First Slide Text', 'tyros'),
         'id' => 'tyros_slide1_text2',
-        'std' => 'Woocommerce Supported',
+        'std' => 'Healthy gains',
         'type' => 'text');
     
     
@@ -340,7 +340,7 @@ function optionsframework_options() {
         'name' => __('Slide #1 Button Text', 'tyros'),
         'desc' => __('First Slide Button Text', 'tyros'),
         'id' => 'tyros_slide1_button_text',
-        'std' => 'Click Here',
+        'std' => 'Browse',
         'type' => 'text');
     
     

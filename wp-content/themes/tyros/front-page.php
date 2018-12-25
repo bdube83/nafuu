@@ -16,7 +16,7 @@ get_header(); ?>
             
             <div class="main-heading-box larger-box animated fadeInUp" id="">
                 <div class="col-sm-10">
-                    <?php echo of_get_option('tyros_cta_header_two', 'Tyros: Customizable, Professional, Beautiful');?>
+                    Find a cheap item, Post on nafuu, Get a reward
                 </div>
                 <div class="col-sm-2">
                     <a href="<?php echo esc_url( of_get_option( 'tyros_cta_button_link', '#' ) ); ?>" class="btn btn-default">

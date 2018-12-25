@@ -12,19 +12,19 @@ jQuery(document).ready(function($) {
         }).masonry('reloadItems').masonry();
     });    
     
-    $('.site-cta').css({visibility:'hidden'});
-    $(window).scroll(function(){
+    // $('.site-cta').css({visibility:'hidden'});
+    // $(window).scroll(function(){
         
-        if( $('.site-cta').scrollTop() <= ( $(window).height() - 300 ) ){
-            $('.site-cta').css({visibility:'visible'}).addClass('animated slideInUp');
-        }
+    //     if( $('.site-cta').scrollTop() <= ( $(window).height() - 300 ) ){
+    //         $('.site-cta').css({visibility:'visible'}).addClass('animated slideInUp');
+    //     }
         
-    });    
-    $('body').on('touchstart', function () {
-        if ($('.site-cta').scrollTop() <= $(window).height()) {
-            $('.site-cta').css({visibility: 'visible'}).addClass('animated fadeInUp');
-        }
-    });    
+    // });    
+    // $('body').on('touchstart', function () {
+    //     if ($('.site-cta').scrollTop() <= $(window).height()) {
+    //         $('.site-cta').css({visibility: 'visible'}).addClass('animated fadeInUp');
+    //     }
+    // });    
     
     
     $('.site-branding').sticky({

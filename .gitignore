@@ -1,0 +1,4 @@
+sql/
+.htaccess
+wp-config.php
+wp-config-sample.php
