@@ -1,0 +1,72 @@
+2018-12-26T00:14:21+00:00 CRITICAL require(): Failed opening required '/home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php on line 335
+
+2018-12-26T00:16:00+00:00 CRITICAL require(): Failed opening required '/home/ubuntu/workspace/wp-content/themes/tyros/inc/engine../../woocommerce/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php on line 335
+
+2018-12-26T00:18:18+00:00 CRITICAL require(): Failed opening required '../..//home/ubuntu/workspace/wp-content/themes/tyros/inc/engine../../woocommerce/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php on line 335
+
+2018-12-26T00:18:44+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'cURL is NOT installed on this server' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:94
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(43): Automattic\WooCommerce\HttpClient\HttpClient->__construct('nafuu-bdube83.c...', 'ck_994c3528e6fe...', 'cs_3ac91f7c0206...', Array)
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php(350): Automattic\WooCommerce\Client->__construct('nafuu-bdube83.c...', 'ck_994c3528e6fe...', 'cs_3ac91f7c0206...', Array)
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/front-page.php(32): tyros_ctas()
+#3 /home/ubuntu/workspace/wp-includes/template-loader.php(74): include('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/wp-blog-header.php(19): require_once('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/index.php(1 in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 94
+
+2018-12-26T00:21:22+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'cURL is NOT installed on this server' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:94
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(43): Automattic\WooCommerce\HttpClient\HttpClient->__construct('nafuu-bdube83.c...', 'ck_994c3528e6fe...', 'cs_3ac91f7c0206...', Array)
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php(350): Automattic\WooCommerce\Client->__construct('nafuu-bdube83.c...', 'ck_994c3528e6fe...', 'cs_3ac91f7c0206...', Array)
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/front-page.php(32): tyros_ctas()
+#3 /home/ubuntu/workspace/wp-includes/template-loader.php(74): include('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/wp-blog-header.php(19): require_once('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/index.php(1 in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 94
+
+2018-12-26T00:21:27+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'cURL is NOT installed on this server' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:94
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(43): Automattic\WooCommerce\HttpClient\HttpClient->__construct('nafuu-bdube83.c...', 'ck_994c3528e6fe...', 'cs_3ac91f7c0206...', Array)
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php(350): Automattic\WooCommerce\Client->__construct('nafuu-bdube83.c...', 'ck_994c3528e6fe...', 'cs_3ac91f7c0206...', Array)
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/front-page.php(32): tyros_ctas()
+#3 /home/ubuntu/workspace/wp-includes/template-loader.php(74): include('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/wp-blog-header.php(19): require_once('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/index.php(1 in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 94
+
+2018-12-26T00:22:04+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'Error: Invalid signature - provided signature does not match. [woocommerce_rest_authentication_error]' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:348
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(378): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(414): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#3 /home/ubuntu/workspace/wp-content/themes/tyros/inc/ in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 348
+
+2018-12-26T00:23:13+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'Error: Invalid signature - provided signature does not match. [woocommerce_rest_authentication_error]' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:348
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(378): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(414): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#3 /home/ubuntu/workspace/wp-content/themes/tyros/inc/ in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 348
+
+2018-12-26T00:31:29+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'Error: Invalid signature - provided signature does not match. [woocommerce_rest_authentication_error]' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:348
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(378): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(414): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#3 /home/ubuntu/workspace/wp-content/themes/tyros/inc/ in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 348
+
+2018-12-26T00:32:13+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'Error: Invalid signature - provided signature does not match. [woocommerce_rest_authentication_error]' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:348
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(378): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php(414): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#3 /home/ubuntu/workspace/wp-content/themes/tyros/inc/ in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 348
+
+2018-12-26T00:32:57+00:00 CRITICAL Uncaught exception 'Automattic\WooCommerce\HttpClient\HttpClientException' with message 'cURL Error: Could not resolve host: https' in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php:409
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#1 /home/ubuntu/workspace/wp-content/themes/tyros/inc/engine/avenue.php(377): Automattic\WooCommerce\Client->post('products', Array)
+#2 /home/ubuntu/workspace/wp-content/themes/tyros/front-page.php(32): tyros_ctas()
+#3 /home/ubuntu/workspace/wp-includes/template-loader.php(74): include('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/wp-blog-header.php(19): require_once('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/index.php(17): require('/home/ubuntu/wo...')
+#6 {main}
+  thrown in /home/ubuntu/workspace/wp-content/themes/tyros/woocommerce/vendor/automattic/woocommerce/src/WooCommerce/HttpClient/HttpClient.php on line 409
+

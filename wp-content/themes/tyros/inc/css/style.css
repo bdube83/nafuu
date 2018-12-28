@@ -289,6 +289,7 @@ a.btn.btn-slider:hover{
 .sc-slider-wrapper{
     margin: 0 auto;
     overflow: hidden;
+    background: white;
 }
 .sc-slider-wrapper .camera_caption{
     text-transform: uppercase;
@@ -325,7 +326,7 @@ a.btn.btn-slider:hover{
     -webkit-text-shadow: 1px 1px #000;
     -moz-text-shadow: 1px 1px #000;
     height: 50px;
-    font-size: 31px;    
+    font-size: 22px;    
 }
 .smartcat_slider_caption{
     position: absolute;
@@ -386,7 +387,7 @@ a.btn.btn-slider:hover{
     background: transparent;
     position: relative;
     width: 100%;
-    min-height: 100px;
+    min-height: 82px;
     z-index: 9;
 }
 #main-heading .main-heading-box.larger-box{    
@@ -809,7 +810,7 @@ article.sidebar-off{
 @media( min-width : 560px ) and ( max-width : 900px ){
     
     .sc-slider-wrapper .camera_caption > div span{
-        font-size: 32px;
+        font-size: 31px;
         line-height: 36px;
     }
     
@@ -1462,4 +1463,14 @@ ul.social-icons li a:hover{
 
 #camera_wrap_1{
     margin-bottom: unset !important
+}
+
+#main_heading_img{
+    background: #e7852f;
+    color: #fff;
+    background-image: url(../../inc/images/AfricaP3.jpg);
+    position: relative;
+    width: 100%;
+    min-height: 82px;
+    z-index: 9;
 }

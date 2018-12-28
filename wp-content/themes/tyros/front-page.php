@@ -8,6 +8,7 @@ get_header(); ?>
 
 <div class="site-content-wrapper row">
     <div id="" class="page-content frontpage">
+<div class="row center relative" id="main_heading_img"></div>
 
         <?php if ( of_get_option('tyros_slider_bool', 'yes' ) == 'yes') echo tyros_slider(); ?>
         
